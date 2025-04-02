@@ -1,6 +1,6 @@
 numbers = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31]
 
-# 인덱스와 원소 출력
+# 1 인덱스와 원소 출력
 # 나 
 i=0
 for order in range(len(numbers)):
@@ -9,4 +9,19 @@ for order in range(len(numbers)):
 
 #개발자
 for i in range(len(numbers)):
-  print(i, numbers[i])
+  print(i, numbers[i] 
+
+---------------------------------
+
+# 2 거듭제곱
+
+# 나
+for double in range(11):
+    print(f"2^{double} = " + str(2 ** double))
+
+# 개발자
+for double in range(11):
+    print("2^{} = {}".format(double, 2 **double))
+# or
+for i in range(11):
+    print("{}^{} = {}".format(2, i, 2 ** i))
